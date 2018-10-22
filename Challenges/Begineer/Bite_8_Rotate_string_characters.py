@@ -16,5 +16,4 @@ def rotate (string, n):
         word.popleft()
         word.append(letter)
 
-
     return ''.join(word)
