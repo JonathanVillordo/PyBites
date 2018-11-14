@@ -3,7 +3,6 @@
 def get_profile(*,name='julian' ,profession='programmer'):
 
         return str('{0} is a {1}'.format(name,profession))
-
 #test
 def test_no_arguments():
     assert get_profile() == 'julian is a programmer'
@@ -32,6 +31,3 @@ def test_correct_kw_second_default():
 def test_two_correct_kws():
     ret = get_profile(name='bob', profession='software developer')
     assert ret == 'bob is a software developer'
-
-
-
